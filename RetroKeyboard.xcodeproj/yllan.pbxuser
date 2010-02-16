@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeArchitecturePreference = x86_64;
+		activeBuildConfigurationName = Release;
+		activeExecutable = 85D6DE2A112A690200B03926 /* RetroKeyboardDaemon */;
+		activeTarget = 8D202CE80486D31800D8A456 /* RetroKeyboardPrefPane */;
+		addToTargets = (
+			8D202CE80486D31800D8A456 /* RetroKeyboardPrefPane */,
+		);
+		breakpoints = (
+			85D6E127112A925B00B03926 /* RKKeyboardProfile.m:115 */,
+		);
+		codeSenseManager = 85D6DC601129AE0900B03926 /* Code sense */;
+		executables = (
+			85D6DE2A112A690200B03926 /* RetroKeyboardDaemon */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					851,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					923,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					811,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288021074;
+			PBXWorkspaceStateSaveDate = 288021074;
+		};
+		perUserProjectItems = {
+			85071288112A9D0600EC013D /* PBXTextBookmark */ = 85071288112A9D0600EC013D /* PBXTextBookmark */;
+			850712A5112A9F9200EC013D /* PBXTextBookmark */ = 850712A5112A9F9200EC013D /* PBXTextBookmark */;
+			850712A7112A9F9200EC013D /* PBXTextBookmark */ = 850712A7112A9F9200EC013D /* PBXTextBookmark */;
+			850713E7112AB80C00EC013D /* PBXTextBookmark */ = 850713E7112AB80C00EC013D /* PBXTextBookmark */;
+			850713E8112AB80C00EC013D /* PBXTextBookmark */ = 850713E8112AB80C00EC013D /* PBXTextBookmark */;
+			85071454112ABAF700EC013D /* PBXTextBookmark */ = 85071454112ABAF700EC013D /* PBXTextBookmark */;
+			85071455112ABAF700EC013D /* PBXTextBookmark */ = 85071455112ABAF700EC013D /* PBXTextBookmark */;
+			85071457112ABAF700EC013D /* PBXTextBookmark */ = 85071457112ABAF700EC013D /* PBXTextBookmark */;
+			85071458112ABAF700EC013D /* PBXTextBookmark */ = 85071458112ABAF700EC013D /* PBXTextBookmark */;
+			8545E586112ADA71004230E4 /* PBXTextBookmark */ = 8545E586112ADA71004230E4 /* PBXTextBookmark */;
+			8545E606112ADB24004230E4 /* PBXTextBookmark */ = 8545E606112ADB24004230E4 /* PBXTextBookmark */;
+			85C913F9112AC31B007D709B /* PBXTextBookmark */ = 85C913F9112AC31B007D709B /* PBXTextBookmark */;
+			85C913FA112AC31B007D709B /* PBXTextBookmark */ = 85C913FA112AC31B007D709B /* PBXTextBookmark */;
+			85C9144C112AC4E3007D709B /* PlistBookmark */ = 85C9144C112AC4E3007D709B /* PlistBookmark */;
+			85C9149F112AD076007D709B /* PBXTextBookmark */ = 85C9149F112AD076007D709B /* PBXTextBookmark */;
+			85C914A0112AD076007D709B /* PlistBookmark */ = 85C914A0112AD076007D709B /* PlistBookmark */;
+			85C914A1112AD076007D709B /* PBXTextBookmark */ = 85C914A1112AD076007D709B /* PBXTextBookmark */;
+			85C914A2112AD076007D709B /* PBXTextBookmark */ = 85C914A2112AD076007D709B /* PBXTextBookmark */;
+			85C914A8112AD5D0007D709B /* PBXTextBookmark */ = 85C914A8112AD5D0007D709B /* PBXTextBookmark */;
+			85D6DD57112A1A6900B03926 /* PlistBookmark */ = 85D6DD57112A1A6900B03926 /* PlistBookmark */;
+			85D6DD5A112A1A6900B03926 /* PBXTextBookmark */ = 85D6DD5A112A1A6900B03926 /* PBXTextBookmark */;
+			85D6DD70112A1B8B00B03926 /* PBXTextBookmark */ = 85D6DD70112A1B8B00B03926 /* PBXTextBookmark */;
+			85D6DE61112A6AE300B03926 /* PBXBookmark */ = 85D6DE61112A6AE300B03926 /* PBXBookmark */;
+			85D6DE77112A6B7800B03926 /* PBXBookmark */ = 85D6DE77112A6B7800B03926 /* PBXBookmark */;
+			85D6DE78112A6B7800B03926 /* PBXBookmark */ = 85D6DE78112A6B7800B03926 /* PBXBookmark */;
+			85D6DE7A112A6B7800B03926 /* PBXTextBookmark */ = 85D6DE7A112A6B7800B03926 /* PBXTextBookmark */;
+			85D6DFA5112A846300B03926 /* PBXTextBookmark */ = 85D6DFA5112A846300B03926 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 85D6DC5F1129AE0900B03926 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 616}}";
+			sepNavSelRange = "{106, 0}";
+			sepNavVisRange = "{0, 106}";
+		};
+	};
+	32DBCFA20370C41700C91783 /* RetroKeyboard */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = folder;
+		name = RetroKeyboard;
+		path = /Users/yllan/Projects/RetroKeyboard;
+		sourceTree = "<absolute>";
+	};
+	8507127A112A9C4900EC013D /* SynthesizeSingleton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 966}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1232}";
+		};
+	};
+	85071288112A9D0600EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8507127A112A9C4900EC013D /* SynthesizeSingleton.h */;
+		name = "SynthesizeSingleton.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 0;
+	};
+	850712A5112A9F9200EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 850712A6112A9F9200EC013D /* CGEventTypes.h */;
+		name = "CGEventTypes.h: 52";
+		rLen = 17;
+		rLoc = 1925;
+		rType = 0;
+		vrLen = 1995;
+		vrLoc = 1181;
+	};
+	850712A6112A9F9200EC013D /* CGEventTypes.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGEventTypes.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/CoreGraphics.framework/Versions/A/Headers/CGEventTypes.h;
+		sourceTree = "<absolute>";
+	};
+	850712A7112A9F9200EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 850712A8112A9F9200EC013D /* IOLLEvent.h */;
+		name = "IOLLEvent.h: 236";
+		rLen = 37;
+		rLoc = 8711;
+		rType = 0;
+		vrLen = 1919;
+		vrLoc = 7819;
+	};
+	850712A8112A9F9200EC013D /* IOLLEvent.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = IOLLEvent.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/IOKit.framework/Versions/A/Headers/hidsystem/IOLLEvent.h;
+		sourceTree = "<absolute>";
+	};
+	850713E7112AB80C00EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DF56112A7E3300B03926 /* RKBase.h */;
+		name = "RKBase.h: 19";
+		rLen = 36;
+		rLoc = 418;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 0;
+	};
+	850713E8112AB80C00EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DF57112A7E3300B03926 /* RKBase.m */;
+		name = "RKBase.m: 17";
+		rLen = 0;
+		rLoc = 528;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	85071454112ABAF700EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DF49112A7C9100B03926 /* RKDaemonController.h */;
+		name = "RKDaemonController.h: 17";
+		rLen = 14;
+		rLoc = 396;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 0;
+	};
+	85071455112ABAF700EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DE45112A69E900B03926 /* main.m */;
+		name = "main.m: 15";
+		rLen = 0;
+		rLoc = 252;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 0;
+	};
+	85071457112ABAF700EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03D013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.m */;
+		name = "OrgYllanRetroKeyboardPref.m: 140";
+		rLen = 0;
+		rLoc = 5305;
+		rType = 0;
+		vrLen = 2362;
+		vrLoc = 0;
+	};
+	85071458112ABAF700EC013D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F506C03C013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.h */;
+		name = "OrgYllanRetroKeyboardPref.h: 3";
+		rLen = 0;
+		rLoc = 44;
+		rType = 0;
+		vrLen = 1436;
+		vrLoc = 0;
+	};
+	8545E586112ADA71004230E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85C914AA112AD5D0007D709B /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 6";
+		rLen = 0;
+		rLoc = 205;
+		rType = 0;
+		vrLen = 205;
+		vrLoc = 0;
+	};
+	8545E606112ADB24004230E4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DF56112A7E3300B03926 /* RKBase.h */;
+		name = "RKBase.h: 15";
+		rLen = 0;
+		rLoc = 356;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 0;
+	};
+	85C913F4112AC30D007D709B /* RetroKeyboard_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 616}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 198}";
+		};
+	};
+	85C913F8112AC31B007D709B /* RetroKeyboardPref.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = RetroKeyboardPref.strings;
+		path = /Users/yllan/Projects/RetroKeyboard/Resources/zh_TW.lproj/RetroKeyboardPref.strings;
+		sourceTree = "<absolute>";
+	};
+	85C913F9112AC31B007D709B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 4";
+		rLen = 0;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 106;
+		vrLoc = 0;
+	};
+	85C913FA112AC31B007D709B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85C913F4112AC30D007D709B /* RetroKeyboard_Prefix.pch */;
+		name = "RetroKeyboard_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	85C9144C112AC4E3007D709B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 85C913FE112AC33E007D709B /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrefPaneIconLabel,
+		);
+		name = /Users/yllan/Projects/RetroKeyboard/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	85C9149F112AD076007D709B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85C913F8112AC31B007D709B /* RetroKeyboardPref.strings */;
+		name = "RetroKeyboardPref.strings: 9";
+		rLen = 0;
+		rLoc = 395;
+		rType = 0;
+		vrLen = 2197;
+		vrLoc = 0;
+	};
+	85C914A0112AD076007D709B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 85C91400112AC34C007D709B /* RetroKeyboardDaemon-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/yllan/Projects/RetroKeyboard/RetroKeyboardDaemon-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	85C914A1112AD076007D709B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DC801129AF3200B03926 /* RKKeyboardProfile.h */;
+		name = "RKKeyboardProfile.h: 37";
+		rLen = 0;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 0;
+	};
+	85C914A2112AD076007D709B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DF4A112A7C9100B03926 /* RKDaemonController.m */;
+		name = "RKDaemonController.m: 23";
+		rLen = 0;
+		rLoc = 831;
+		rType = 0;
+		vrLen = 2011;
+		vrLoc = 49;
+	};
+	85C914A8112AD5D0007D709B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */;
+		name = "RKKeyboardProfile.m: 64";
+		rLen = 7;
+		rLoc = 2220;
+		rType = 0;
+		vrLen = 2302;
+		vrLoc = 1218;
+	};
+	85C914AA112AD5D0007D709B /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = InfoPlist.strings;
+		path = "/Applications/Sound Studio 3/Sound Studio.app/Contents/Frameworks/FreeRegLibMachO.framework/Versions/A/Resources/English.lproj/InfoPlist.strings";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 887}}";
+			sepNavSelRange = "{205, 0}";
+			sepNavVisRange = "{0, 205}";
+		};
+	};
+	85D6DC5F1129AE0900B03926 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	85D6DC601129AE0900B03926 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	85D6DC801129AF3200B03926 /* RKKeyboardProfile.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 887}}";
+			sepNavSelRange = "{771, 0}";
+			sepNavVisRange = "{0, 771}";
+			sepNavWindowFrame = "{{15, 102}, {1369, 921}}";
+		};
+	};
+	85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 1736}}";
+			sepNavSelRange = "{2220, 7}";
+			sepNavVisRange = "{1218, 2302}";
+		};
+	};
+	85D6DD57112A1A6900B03926 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D202CF70486D31800D8A456 /* Resources */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			NSPrincipalClass,
+		);
+		name = /Users/yllan/Projects/RetroKeyboard/Info.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	85D6DD5A112A1A6900B03926 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DD5B112A1A6900B03926 /* NSValue.h */;
+		name = "NSValue.h: 36";
+		rLen = 30;
+		rLoc = 778;
+		rType = 0;
+		vrLen = 1293;
+		vrLoc = 0;
+	};
+	85D6DD5B112A1A6900B03926 /* NSValue.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSValue.h;
+		path = /iPhoneSDK313/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSValue.h;
+		sourceTree = "<absolute>";
+	};
+	85D6DD70112A1B8B00B03926 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DD71112A1B8B00B03926 /* CFNumber.h */;
+		name = "CFNumber.h: 15";
+		rLen = 35;
+		rLoc = 272;
+		rType = 0;
+		vrLen = 1232;
+		vrLoc = 0;
+	};
+	85D6DD71112A1B8B00B03926 /* CFNumber.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CFNumber.h;
+		path = /iPhoneSDK313/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Versions/A/Headers/CFNumber.h;
+		sourceTree = "<absolute>";
+	};
+	85D6DE28112A690200B03926 /* RetroKeyboardDaemon */ = {
+		activeExec = 0;
+		executables = (
+			85D6DE2A112A690200B03926 /* RetroKeyboardDaemon */,
+		);
+	};
+	85D6DE2A112A690200B03926 /* RetroKeyboardDaemon */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = RetroKeyboardDaemon;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+		};
+	};
+	85D6DE45112A69E900B03926 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 887}}";
+			sepNavSelRange = "{250, 0}";
+			sepNavVisRange = "{0, 251}";
+			sepNavWindowFrame = "{{61, 60}, {1369, 921}}";
+		};
+	};
+	85D6DE61112A6AE300B03926 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 85D6DCDF1129B44500B03926 /* RetroKeyboard.png */;
+	};
+	85D6DE77112A6B7800B03926 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 85D6DCE11129B45100B03926 /* RKB.png */;
+	};
+	85D6DE78112A6B7800B03926 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 85D6DE67112A6AF200B03926 /* RetroKeyboard.icns */;
+	};
+	85D6DE7A112A6B7800B03926 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCFA20370C41700C91783 /* RetroKeyboard */;
+		name = "RetroKeyboard_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 198;
+		vrLoc = 0;
+	};
+	85D6DF49112A7C9100B03926 /* RKDaemonController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 887}}";
+			sepNavSelRange = "{394, 14}";
+			sepNavVisRange = "{0, 682}";
+		};
+	};
+	85D6DF4A112A7C9100B03926 /* RKDaemonController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 1708}}";
+			sepNavSelRange = "{831, 0}";
+			sepNavVisRange = "{49, 2011}";
+		};
+	};
+	85D6DF56112A7E3300B03926 /* RKBase.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 887}}";
+			sepNavSelRange = "{356, 0}";
+			sepNavVisRange = "{0, 455}";
+			sepNavWindowFrame = "{{15, 184}, {678, 839}}";
+		};
+	};
+	85D6DF57112A7E3300B03926 /* RKBase.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 887}}";
+			sepNavSelRange = "{526, 0}";
+			sepNavVisRange = "{0, 528}";
+		};
+	};
+	85D6DFA5112A846300B03926 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 85D6DFA6112A846300B03926 /* MacTypes.h */;
+		name = "MacTypes.h: 418";
+		rLen = 49;
+		rLoc = 17141;
+		rType = 0;
+		vrLen = 3483;
+		vrLoc = 13914;
+	};
+	85D6DFA6112A846300B03926 /* MacTypes.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MacTypes.h;
+		path = /iPhoneSDK313/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Headers/MacTypes.h;
+		sourceTree = "<absolute>";
+	};
+	85D6E127112A925B00B03926 /* RKKeyboardProfile.m:115 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 115;
+		location = RetroKeyboard;
+		modificationTime = 288003383.948844;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	8D202CE80486D31800D8A456 /* RetroKeyboardPrefPane */ = {
+		activeExec = 0;
+	};
+	8D202CF70486D31800D8A456 /* Resources */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = folder;
+		name = Resources;
+		path = /Users/yllan/Projects/RetroKeyboard/Resources;
+		sourceTree = "<absolute>";
+	};
+	F506C03C013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 862}}";
+			sepNavSelRange = "{44, 0}";
+			sepNavVisRange = "{0, 1436}";
+		};
+	};
+	F506C03D013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1029, 2758}}";
+			sepNavSelRange = "{5303, 0}";
+			sepNavVisRange = "{0, 2362}";
+		};
+	};
+}

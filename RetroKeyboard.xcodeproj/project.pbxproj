@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85967EFD112AD9DB00ADEDDE /* Speak Letter(QWERTY).KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85967EA2112AD9CA00ADEDDE /* Speak Letter(QWERTY).KBProfile */; };
+		85D6DC831129AF3200B03926 /* RKKeyboardProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */; };
+		85D6DCE01129B44500B03926 /* RetroKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DCDF1129B44500B03926 /* RetroKeyboard.png */; };
+		85D6DCE21129B45100B03926 /* RKB.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DCE11129B45100B03926 /* RKB.png */; };
+		85D6DE46112A69E900B03926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DE45112A69E900B03926 /* main.m */; };
+		85D6DE68112A6AF200B03926 /* RetroKeyboard.icns in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DE67112A6AF200B03926 /* RetroKeyboard.icns */; };
+		85D6DE7F112A6B8800B03926 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DE7E112A6B8800B03926 /* MainMenu.xib */; };
+		85D6DEA1112A6DC200B03926 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D6DEA0112A6DC200B03926 /* QTKit.framework */; };
+		85D6DEC2112A6DC900B03926 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D6DEA0112A6DC200B03926 /* QTKit.framework */; };
+		85D6DEC7112A6E2200B03926 /* RetroKeyboardDaemon.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85D6DE29112A690200B03926 /* RetroKeyboardDaemon.app */; };
+		85D6DF45112A7C7B00B03926 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D6DF44112A7C7B00B03926 /* ApplicationServices.framework */; };
+		85D6DF4B112A7C9100B03926 /* RKDaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DF4A112A7C9100B03926 /* RKDaemonController.m */; };
+		85D6DF58112A7E3300B03926 /* RKBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DF57112A7E3300B03926 /* RKBase.m */; };
+		85D6DF59112A7E4300B03926 /* RKBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DF57112A7E3300B03926 /* RKBase.m */; };
+		85D6DF72112A801D00B03926 /* RKKeyboardProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */; };
+		85D6E019112A8CF800B03926 /* 512K Keyboard.KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85D6E001112A8CA300B03926 /* 512K Keyboard.KBProfile */; };
+		85D6E01A112A8CF800B03926 /* Tunak.KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85D6E00C112A8CA300B03926 /* Tunak.KBProfile */; };
+		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D202CEF0486D31800D8A456 /* RetroKeyboardPref.xib in Resources */ = {isa = PBXBuildFile; fileRef = F506C042013D9D8C01CA16C8 /* RetroKeyboardPref.xib */; };
+		8D202CF10486D31800D8A456 /* OrgYllanRetroKeyboardPref.m in Sources */ = {isa = PBXBuildFile; fileRef = F506C03D013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.m */; };
+		8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F506C035013D953901CA16C8 /* PreferencePanes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85D6DEC3112A6DD400B03926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D6DE28112A690200B03926;
+			remoteInfo = RetroKeyboardDaemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85D6DEC6112A6E0F00B03926 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 12;
+			files = (
+				85D6DEC7112A6E2200B03926 /* RetroKeyboardDaemon.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D6E014112A8CB900B03926 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Profiles;
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D6E02B112A8D5E00B03926 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Profiles;
+			dstSubfolderSpec = 7;
+			files = (
+				85967EFD112AD9DB00ADEDDE /* Speak Letter(QWERTY).KBProfile in CopyFiles */,
+				85D6E019112A8CF800B03926 /* 512K Keyboard.KBProfile in CopyFiles */,
+				85D6E01A112A8CF800B03926 /* Tunak.KBProfile in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		8507127A112A9C4900EC013D /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynthesizeSingleton.h; path = Source/SynthesizeSingleton.h; sourceTree = "<group>"; };
+		8507145C112ABC8500EC013D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = zh_TW; path = zh_TW.lproj/RetroKeyboardPref.xib; sourceTree = "<group>"; };
+		85967EA2112AD9CA00ADEDDE /* Speak Letter(QWERTY).KBProfile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Speak Letter(QWERTY).KBProfile"; path = "Default Profiles/Speak Letter(QWERTY).KBProfile"; sourceTree = "<group>"; };
+		85C912BB112AC03E007D709B /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85C913F4112AC30D007D709B /* RetroKeyboard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetroKeyboard_Prefix.pch; sourceTree = "<group>"; };
+		85C913FE112AC33E007D709B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C91400112AC34C007D709B /* RetroKeyboardDaemon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RetroKeyboardDaemon-Info.plist"; sourceTree = "<group>"; };
+		85D6DC801129AF3200B03926 /* RKKeyboardProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKKeyboardProfile.h; path = Source/RKKeyboardProfile.h; sourceTree = "<group>"; };
+		85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKKeyboardProfile.m; path = Source/RKKeyboardProfile.m; sourceTree = "<group>"; };
+		85D6DCDF1129B44500B03926 /* RetroKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RetroKeyboard.png; path = Resources/RetroKeyboard.png; sourceTree = "<group>"; };
+		85D6DCE11129B45100B03926 /* RKB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RKB.png; path = Resources/RKB.png; sourceTree = "<group>"; };
+		85D6DE29112A690200B03926 /* RetroKeyboardDaemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroKeyboardDaemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D6DE45112A69E900B03926 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
+		85D6DE67112A6AF200B03926 /* RetroKeyboard.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = RetroKeyboard.icns; path = Resources/RetroKeyboard.icns; sourceTree = "<group>"; };
+		85D6DE7E112A6B8800B03926 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = Resources/MainMenu.xib; sourceTree = "<group>"; };
+		85D6DEA0112A6DC200B03926 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		85D6DF44112A7C7B00B03926 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		85D6DF49112A7C9100B03926 /* RKDaemonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKDaemonController.h; path = Source/RKDaemonController.h; sourceTree = "<group>"; };
+		85D6DF4A112A7C9100B03926 /* RKDaemonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKDaemonController.m; path = Source/RKDaemonController.m; sourceTree = "<group>"; };
+		85D6DF56112A7E3300B03926 /* RKBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKBase.h; path = Source/RKBase.h; sourceTree = "<group>"; };
+		85D6DF57112A7E3300B03926 /* RKBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKBase.m; path = Source/RKBase.m; sourceTree = "<group>"; };
+		85D6E001112A8CA300B03926 /* 512K Keyboard.KBProfile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "512K Keyboard.KBProfile"; path = "Default Profiles/512K Keyboard.KBProfile"; sourceTree = "<group>"; };
+		85D6E00C112A8CA300B03926 /* Tunak.KBProfile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Tunak.KBProfile; path = "Default Profiles/Tunak.KBProfile"; sourceTree = "<group>"; };
+		8D202CF80486D31800D8A456 /* RetroKeyboard.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroKeyboard.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		F506C035013D953901CA16C8 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = /System/Library/Frameworks/PreferencePanes.framework; sourceTree = "<absolute>"; };
+		F506C03C013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrgYllanRetroKeyboardPref.h; path = Source/OrgYllanRetroKeyboardPref.h; sourceTree = "<group>"; };
+		F506C03D013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrgYllanRetroKeyboardPref.m; path = Source/OrgYllanRetroKeyboardPref.m; sourceTree = "<group>"; };
+		F506C043013D9D8C01CA16C8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/RetroKeyboardPref.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85D6DE27112A690200B03926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D6DEA1112A6DC200B03926 /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CF20486D31800D8A456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
+				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
+				85D6DEC2112A6DC900B03926 /* QTKit.framework in Frameworks */,
+				85D6DF45112A7C7B00B03926 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* RetroKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				85D6DF56112A7E3300B03926 /* RKBase.h */,
+				85D6DF57112A7E3300B03926 /* RKBase.m */,
+				85D6DC801129AF3200B03926 /* RKKeyboardProfile.h */,
+				85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */,
+				85D6DE30112A695700B03926 /* Daemon App */,
+				08FB77AFFE84173DC02AAC07 /* PreferencePane */,
+				32DBCFA10370C40200C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = RetroKeyboard;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85D6DE55112A6ABA00B03926 /* Daemon App */,
+				85D6DE54112A6AA600B03926 /* PreferencePane */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* PreferencePane */ = {
+			isa = PBXGroup;
+			children = (
+				F506C03C013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.h */,
+				F506C03D013D9D7901CA16C8 /* OrgYllanRetroKeyboardPref.m */,
+			);
+			name = PreferencePane;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
+				85D6DEA0112A6DC200B03926 /* QTKit.framework */,
+				85D6DF44112A7C7B00B03926 /* ApplicationServices.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D202CF80486D31800D8A456 /* RetroKeyboard.prefPane */,
+				85D6DE29112A690200B03926 /* RetroKeyboardDaemon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA10370C40200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				85C913F4112AC30D007D709B /* RetroKeyboard_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		85967EFF112AD9E400ADEDDE /* Builtin Keyboard Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				85967EA2112AD9CA00ADEDDE /* Speak Letter(QWERTY).KBProfile */,
+				85D6E001112A8CA300B03926 /* 512K Keyboard.KBProfile */,
+				85D6E00C112A8CA300B03926 /* Tunak.KBProfile */,
+			);
+			name = "Builtin Keyboard Profiles";
+			sourceTree = "<group>";
+		};
+		85D6DE30112A695700B03926 /* Daemon App */ = {
+			isa = PBXGroup;
+			children = (
+				8507127A112A9C4900EC013D /* SynthesizeSingleton.h */,
+				85D6DF49112A7C9100B03926 /* RKDaemonController.h */,
+				85D6DF4A112A7C9100B03926 /* RKDaemonController.m */,
+				85D6DE45112A69E900B03926 /* main.m */,
+			);
+			name = "Daemon App";
+			sourceTree = "<group>";
+		};
+		85D6DE54112A6AA600B03926 /* PreferencePane */ = {
+			isa = PBXGroup;
+			children = (
+				85C913FE112AC33E007D709B /* Info.plist */,
+				85967EFF112AD9E400ADEDDE /* Builtin Keyboard Profiles */,
+				85D6DCE11129B45100B03926 /* RKB.png */,
+				85D6DCDF1129B44500B03926 /* RetroKeyboard.png */,
+				F506C042013D9D8C01CA16C8 /* RetroKeyboardPref.xib */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = PreferencePane;
+			sourceTree = "<group>";
+		};
+		85D6DE55112A6ABA00B03926 /* Daemon App */ = {
+			isa = PBXGroup;
+			children = (
+				85C91400112AC34C007D709B /* RetroKeyboardDaemon-Info.plist */,
+				85D6DE67112A6AF200B03926 /* RetroKeyboard.icns */,
+				85D6DE7E112A6B8800B03926 /* MainMenu.xib */,
+			);
+			name = "Daemon App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85D6DE28112A690200B03926 /* RetroKeyboardDaemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D6DE2E112A690400B03926 /* Build configuration list for PBXNativeTarget "RetroKeyboardDaemon" */;
+			buildPhases = (
+				85D6DE25112A690200B03926 /* Resources */,
+				85D6DE26112A690200B03926 /* Sources */,
+				85D6DE27112A690200B03926 /* Frameworks */,
+				85D6E014112A8CB900B03926 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetroKeyboardDaemon;
+			productName = RetroKeyboardDaemon;
+			productReference = 85D6DE29112A690200B03926 /* RetroKeyboardDaemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D202CE80486D31800D8A456 /* RetroKeyboardPrefPane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "RetroKeyboardPrefPane" */;
+			buildPhases = (
+				8D202CEC0486D31800D8A456 /* Resources */,
+				8D202CF00486D31800D8A456 /* Sources */,
+				8D202CF20486D31800D8A456 /* Frameworks */,
+				8D202CF50486D31800D8A456 /* Rez */,
+				85D6DEC6112A6E0F00B03926 /* CopyFiles */,
+				85D6E02B112A8D5E00B03926 /* CopyFiles */,
+				8507145E112ABCF100EC013D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85D6DEC4112A6DD400B03926 /* PBXTargetDependency */,
+			);
+			name = RetroKeyboardPrefPane;
+			productInstallPath = "$(HOME)/Library/PreferencePanes";
+			productName = RetroKeyboard;
+			productReference = 8D202CF80486D31800D8A456 /* RetroKeyboard.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "RetroKeyboard" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_TW,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* RetroKeyboard */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D202CE80486D31800D8A456 /* RetroKeyboardPrefPane */,
+				85D6DE28112A690200B03926 /* RetroKeyboardDaemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85D6DE25112A690200B03926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D6DE68112A6AF200B03926 /* RetroKeyboard.icns in Resources */,
+				85D6DE7F112A6B8800B03926 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CEC0486D31800D8A456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */,
+				8D202CEF0486D31800D8A456 /* RetroKeyboardPref.xib in Resources */,
+				85D6DCE01129B44500B03926 /* RetroKeyboard.png in Resources */,
+				85D6DCE21129B45100B03926 /* RKB.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D202CF50486D31800D8A456 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8507145E112ABCF100EC013D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Extract English strings (use this to check if you added new strings to your nibs)\nibtool --generate-strings-file Resources/English.lproj/RetroKeyboardPref.strings Resources/English.lproj/RetroKeyboardPref.xib\n# Generate French interface\nibtool --strings-file Resources/zh_TW.lproj/RetroKeyboardPref.strings --write Resources/zh_TW.lproj/RetroKeyboardPref.xib Resources/English.lproj/RetroKeyboardPref.xib";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85D6DE26112A690200B03926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D6DE46112A69E900B03926 /* main.m in Sources */,
+				85D6DF4B112A7C9100B03926 /* RKDaemonController.m in Sources */,
+				85D6DF58112A7E3300B03926 /* RKBase.m in Sources */,
+				85D6DF72112A801D00B03926 /* RKKeyboardProfile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D202CF00486D31800D8A456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D202CF10486D31800D8A456 /* OrgYllanRetroKeyboardPref.m in Sources */,
+				85D6DC831129AF3200B03926 /* RKKeyboardProfile.m in Sources */,
+				85D6DF59112A7E4300B03926 /* RKBase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85D6DEC4112A6DD400B03926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D6DE28112A690200B03926 /* RetroKeyboardDaemon */;
+			targetProxy = 85D6DEC3112A6DD400B03926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+				85C912BB112AC03E007D709B /* zh_TW */,
+			);
+			name = InfoPlist.strings;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F506C042013D9D8C01CA16C8 /* RetroKeyboardPref.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F506C043013D9D8C01CA16C8 /* English */,
+				8507145C112ABC8500EC013D /* zh_TW */,
+			);
+			name = RetroKeyboardPref.xib;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBD214908BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RetroKeyboard_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = RetroKeyboard;
+				WRAPPER_EXTENSION = prefPane;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DBD214A08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RetroKeyboard_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = RetroKeyboard;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+		1DBD214D08BA80EA00186707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Debug;
+		};
+		1DBD214E08BA80EA00186707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 ppc x86_64";
+			};
+			name = Release;
+		};
+		85D6DE2C112A690400B03926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "RetroKeyboardDaemon-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RetroKeyboardDaemon;
+			};
+			name = Debug;
+		};
+		85D6DE2D112A690400B03926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "RetroKeyboardDaemon-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = RetroKeyboardDaemon;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBD214808BA80EA00186707 /* Build configuration list for PBXNativeTarget "RetroKeyboardPrefPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214908BA80EA00186707 /* Debug */,
+				1DBD214A08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "RetroKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBD214D08BA80EA00186707 /* Debug */,
+				1DBD214E08BA80EA00186707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D6DE2E112A690400B03926 /* Build configuration list for PBXNativeTarget "RetroKeyboardDaemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D6DE2C112A690400B03926 /* Debug */,
+				85D6DE2D112A690400B03926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

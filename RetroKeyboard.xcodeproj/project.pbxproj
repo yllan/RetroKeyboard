@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		85967EFD112AD9DB00ADEDDE /* Speak Letter(QWERTY).KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85967EA2112AD9CA00ADEDDE /* Speak Letter(QWERTY).KBProfile */; };
+		85CE92BC125C29B0006D1C94 /* iPhone Keyboard.KBProfile in Resources */ = {isa = PBXBuildFile; fileRef = 85CE92B8125C29B0006D1C94 /* iPhone Keyboard.KBProfile */; };
+		85CE92C7125C2CCF006D1C94 /* iPhone Keyboard.KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85CE92B8125C29B0006D1C94 /* iPhone Keyboard.KBProfile */; };
 		85D6DC831129AF3200B03926 /* RKKeyboardProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */; };
 		85D6DCE01129B44500B03926 /* RetroKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DCDF1129B44500B03926 /* RetroKeyboard.png */; };
 		85D6DCE21129B45100B03926 /* RKB.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DCE11129B45100B03926 /* RKB.png */; };
@@ -67,6 +69,7 @@
 			dstPath = Profiles;
 			dstSubfolderSpec = 7;
 			files = (
+				85CE92C7125C2CCF006D1C94 /* iPhone Keyboard.KBProfile in CopyFiles */,
 				85967EFD112AD9DB00ADEDDE /* Speak Letter(QWERTY).KBProfile in CopyFiles */,
 				85D6E019112A8CF800B03926 /* 512K Keyboard.KBProfile in CopyFiles */,
 				85D6E01A112A8CF800B03926 /* Tunak.KBProfile in CopyFiles */,
@@ -87,6 +90,7 @@
 		85C913F4112AC30D007D709B /* RetroKeyboard_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetroKeyboard_Prefix.pch; sourceTree = "<group>"; };
 		85C913FE112AC33E007D709B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85C91400112AC34C007D709B /* RetroKeyboardDaemon-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RetroKeyboardDaemon-Info.plist"; sourceTree = "<group>"; };
+		85CE92B8125C29B0006D1C94 /* iPhone Keyboard.KBProfile */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "iPhone Keyboard.KBProfile"; sourceTree = "<group>"; };
 		85D6DC801129AF3200B03926 /* RKKeyboardProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKKeyboardProfile.h; path = Source/RKKeyboardProfile.h; sourceTree = "<group>"; };
 		85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKKeyboardProfile.m; path = Source/RKKeyboardProfile.m; sourceTree = "<group>"; };
 		85D6DCDF1129B44500B03926 /* RetroKeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RetroKeyboard.png; path = Resources/RetroKeyboard.png; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 		85967EFF112AD9E400ADEDDE /* Builtin Keyboard Profiles */ = {
 			isa = PBXGroup;
 			children = (
+				85CE92B8125C29B0006D1C94 /* iPhone Keyboard.KBProfile */,
 				85967EA2112AD9CA00ADEDDE /* Speak Letter(QWERTY).KBProfile */,
 				85D6E001112A8CA300B03926 /* 512K Keyboard.KBProfile */,
 				85D6E00C112A8CA300B03926 /* Tunak.KBProfile */,
@@ -309,6 +314,7 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "RetroKeyboard" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -345,6 +351,7 @@
 				8D202CEF0486D31800D8A456 /* RetroKeyboardPref.xib in Resources */,
 				85D6DCE01129B44500B03926 /* RetroKeyboard.png in Resources */,
 				85D6DCE21129B45100B03926 /* RKB.png in Resources */,
+				85CE92BC125C29B0006D1C94 /* iPhone Keyboard.KBProfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

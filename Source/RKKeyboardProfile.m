@@ -62,7 +62,6 @@ static NSString *RKKeyboardProfileKeyUpMappingKey = @"KeyUpMapping";
 				id soundObject;
                 if (needQT) {
                     soundObject = [[AVPlayer alloc] initWithURL:[NSURL fileURLWithPath:[path stringByAppendingPathComponent: soundName]]];
-                    //soundObject = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[path stringByAppendingPathComponent: soundName]] error:nil];
                 }
 				else
 					soundObject = [[[NSSound alloc] initWithContentsOfFile: [path stringByAppendingPathComponent: soundName]

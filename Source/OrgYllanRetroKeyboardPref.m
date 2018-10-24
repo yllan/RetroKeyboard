@@ -105,7 +105,13 @@ typedef enum {
 		[self.launchButton setEnabled: YES];
 	} else if (!self.launching && !self.quiting) {
         self.launchButton.state = executed ? NSOnState : NSOffState;
+        [self.launchButton setEnabled: YES];
 	}
+    else {
+        self.launching = self.quiting = NO;
+        self.launchButton.state = executed ? NSOnState : NSOffState;
+        [self.launchButton setEnabled: YES];
+    }
 	return;
 }
 

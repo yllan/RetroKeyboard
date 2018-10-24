@@ -7,7 +7,7 @@
 //
 
 #import "RKKeyboardProfile.h"
-#import <QTKit/QTKit.h>
+#import <AVKit/AVKit.h>
 
 static NSString *RKKeyboardProfileMappingFileName = @"Mapping.plist";
 static NSString *RKKeyboardProfileDisplayNameKey = @"DisplayName";
@@ -56,12 +56,14 @@ static NSString *RKKeyboardProfileKeyUpMappingKey = @"KeyUpMapping";
 		
         void (^setSoundToArray)(NSUInteger, id[128], NSArray *) = ^(NSUInteger idx, id *array, NSArray *mappings) {
 			NSString *soundName = [mappings objectAtIndex: idx];
-			if ([soundCaches objectForKey: soundName]) {
+			if ([[soundCaches objectForKey: soundName] isKindOfClass: [NSSound class]]) {
 				array[idx] = [soundCaches objectForKey: soundName];
 			} else {
 				id soundObject;
-				if (needQT) 
-					soundObject = [QTMovie movieWithFile: [path stringByAppendingPathComponent: soundName] error: nil];
+                if (needQT) {
+                    soundObject = [[AVPlayer alloc] initWithURL:[NSURL fileURLWithPath:[path stringByAppendingPathComponent: soundName]]];
+                    //soundObject = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:[path stringByAppendingPathComponent: soundName]] error:nil];
+                }
 				else
 					soundObject = [[[NSSound alloc] initWithContentsOfFile: [path stringByAppendingPathComponent: soundName]
                                                                byReference: YES] autorelease];
@@ -99,6 +101,8 @@ static NSString *RKKeyboardProfileKeyUpMappingKey = @"KeyUpMapping";
 {
     if (idx > 128) return;
 	if ([keyUp[idx] isKindOfClass: [NSSound class]] && [keyUp[idx] isPlaying]) return;
+    if ([keyUp[idx] isKindOfClass: [AVPlayer class]] && [keyUp[idx] rate] == 0)
+        [keyUp[idx] seekToTime: kCMTimeZero];
 	[keyUp[idx] performSelector: @selector(play)];  // Make compiler happy.
 }
 
@@ -106,6 +110,8 @@ static NSString *RKKeyboardProfileKeyUpMappingKey = @"KeyUpMapping";
 {
     if (idx > 128) return;
 	if ([keyDown[idx] isKindOfClass: [NSSound class]] && [keyDown[idx] isPlaying]) return;
+    if ([keyDown[idx] isKindOfClass: [AVPlayer class]] && [keyDown[idx] rate] == 0)
+        [keyDown[idx] seekToTime: kCMTimeZero];
 	[keyDown[idx] performSelector: @selector(play)];	
 }
 

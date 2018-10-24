@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04073D67217F696900F64916 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04073D66217F696900F64916 /* AVFoundation.framework */; };
+		04073D68217F697600F64916 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04073D66217F696900F64916 /* AVFoundation.framework */; };
+		04073D69217F6D4800F64916 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04073D63217F693B00F64916 /* AVKit.framework */; };
+		04073D6A217F6D5400F64916 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04073D63217F693B00F64916 /* AVKit.framework */; };
+		04C6739521801A59008D9863 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C6739421801A59008D9863 /* CoreMedia.framework */; };
+		04C6739621801A6D008D9863 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C6739421801A59008D9863 /* CoreMedia.framework */; };
 		85967EFD112AD9DB00ADEDDE /* Speak Letter(QWERTY).KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85967EA2112AD9CA00ADEDDE /* Speak Letter(QWERTY).KBProfile */; };
 		85CE92BC125C29B0006D1C94 /* iPhone Keyboard.KBProfile in Resources */ = {isa = PBXBuildFile; fileRef = 85CE92B8125C29B0006D1C94 /* iPhone Keyboard.KBProfile */; };
 		85CE92C7125C2CCF006D1C94 /* iPhone Keyboard.KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85CE92B8125C29B0006D1C94 /* iPhone Keyboard.KBProfile */; };
 		85D6DC831129AF3200B03926 /* RKKeyboardProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */; };
 		85D6DCE01129B44500B03926 /* RetroKeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DCDF1129B44500B03926 /* RetroKeyboard.png */; };
 		85D6DCE21129B45100B03926 /* RKB.png in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DCE11129B45100B03926 /* RKB.png */; };
-		85D6DE46112A69E900B03926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DE45112A69E900B03926 /* main.m */; };
+		85D6DE46112A69E900B03926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DE45112A69E900B03926 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		85D6DE68112A6AF200B03926 /* RetroKeyboard.icns in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DE67112A6AF200B03926 /* RetroKeyboard.icns */; };
 		85D6DE7F112A6B8800B03926 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85D6DE7E112A6B8800B03926 /* MainMenu.xib */; };
-		85D6DEA1112A6DC200B03926 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D6DEA0112A6DC200B03926 /* QTKit.framework */; };
-		85D6DEC2112A6DC900B03926 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D6DEA0112A6DC200B03926 /* QTKit.framework */; };
 		85D6DEC7112A6E2200B03926 /* RetroKeyboardDaemon.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85D6DE29112A690200B03926 /* RetroKeyboardDaemon.app */; };
 		85D6DF45112A7C7B00B03926 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D6DF44112A7C7B00B03926 /* ApplicationServices.framework */; };
-		85D6DF4B112A7C9100B03926 /* RKDaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DF4A112A7C9100B03926 /* RKDaemonController.m */; };
-		85D6DF58112A7E3300B03926 /* RKBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DF57112A7E3300B03926 /* RKBase.m */; };
+		85D6DF4B112A7C9100B03926 /* RKDaemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DF4A112A7C9100B03926 /* RKDaemonController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		85D6DF58112A7E3300B03926 /* RKBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DF57112A7E3300B03926 /* RKBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		85D6DF59112A7E4300B03926 /* RKBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DF57112A7E3300B03926 /* RKBase.m */; };
-		85D6DF72112A801D00B03926 /* RKKeyboardProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */; };
+		85D6DF72112A801D00B03926 /* RKKeyboardProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 85D6DC811129AF3200B03926 /* RKKeyboardProfile.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		85D6E019112A8CF800B03926 /* 512K Keyboard.KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85D6E001112A8CA300B03926 /* 512K Keyboard.KBProfile */; };
 		85D6E01A112A8CF800B03926 /* Tunak.KBProfile in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85D6E00C112A8CA300B03926 /* Tunak.KBProfile */; };
 		8D202CED0486D31800D8A456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
@@ -79,6 +83,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04073D63217F693B00F64916 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		04073D66217F696900F64916 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04C6739421801A59008D9863 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
@@ -99,7 +106,6 @@
 		85D6DE45112A69E900B03926 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = "<group>"; };
 		85D6DE67112A6AF200B03926 /* RetroKeyboard.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = RetroKeyboard.icns; path = Resources/RetroKeyboard.icns; sourceTree = "<group>"; };
 		85D6DE7E112A6B8800B03926 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainMenu.xib; path = Resources/MainMenu.xib; sourceTree = "<group>"; };
-		85D6DEA0112A6DC200B03926 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 		85D6DF44112A7C7B00B03926 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		85D6DF49112A7C9100B03926 /* RKDaemonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKDaemonController.h; path = Source/RKDaemonController.h; sourceTree = "<group>"; };
 		85D6DF4A112A7C9100B03926 /* RKDaemonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKDaemonController.m; path = Source/RKDaemonController.m; sourceTree = "<group>"; };
@@ -119,7 +125,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D6DEA1112A6DC200B03926 /* QTKit.framework in Frameworks */,
+				04C6739621801A6D008D9863 /* CoreMedia.framework in Frameworks */,
+				04073D67217F696900F64916 /* AVFoundation.framework in Frameworks */,
+				04073D6A217F6D5400F64916 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,9 +135,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C6739521801A59008D9863 /* CoreMedia.framework in Frameworks */,
+				04073D68217F697600F64916 /* AVFoundation.framework in Frameworks */,
+				04073D69217F6D4800F64916 /* AVKit.framework in Frameworks */,
 				8D202CF30486D31800D8A456 /* Cocoa.framework in Frameworks */,
 				8D202CF40486D31800D8A456 /* PreferencePanes.framework in Frameworks */,
-				85D6DEC2112A6DC900B03926 /* QTKit.framework in Frameworks */,
 				85D6DF45112A7C7B00B03926 /* ApplicationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +147,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04073D62217F693A00F64916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C6739421801A59008D9863 /* CoreMedia.framework */,
+				04073D66217F696900F64916 /* AVFoundation.framework */,
+				04073D63217F693B00F64916 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		089C166AFE841209C02AAC07 /* RetroKeyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +170,7 @@
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
+				04073D62217F693A00F64916 /* Frameworks */,
 			);
 			name = RetroKeyboard;
 			sourceTree = "<group>";
@@ -186,7 +207,6 @@
 			children = (
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
 				F506C035013D953901CA16C8 /* PreferencePanes.framework */,
-				85D6DEA0112A6DC200B03926 /* QTKit.framework */,
 				85D6DF44112A7C7B00B03926 /* ApplicationServices.framework */,
 			);
 			name = "Linked Frameworks";
@@ -312,6 +332,9 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+			};
 			buildConfigurationList = 1DBD214C08BA80EA00186707 /* Build configuration list for PBXProject "RetroKeyboard" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -379,7 +402,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Extract English strings (use this to check if you added new strings to your nibs)\nibtool --generate-strings-file Resources/English.lproj/RetroKeyboardPref.strings Resources/English.lproj/RetroKeyboardPref.xib\n# Generate French interface\nibtool --strings-file Resources/zh_TW.lproj/RetroKeyboardPref.strings --write Resources/zh_TW.lproj/RetroKeyboardPref.xib Resources/English.lproj/RetroKeyboardPref.xib";
+			shellScript = "# Extract English strings (use this to check if you added new strings to your nibs)\nibtool --generate-strings-file Resources/English.lproj/RetroKeyboardPref.strings Resources/English.lproj/RetroKeyboardPref.xib\n# Generate French interface\nibtool --strings-file Resources/zh_TW.lproj/RetroKeyboardPref.strings --write Resources/zh_TW.lproj/RetroKeyboardPref.xib Resources/English.lproj/RetroKeyboardPref.xib\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -442,9 +465,9 @@
 		1DBD214908BA80EA00186707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -452,6 +475,8 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.yllan.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = RetroKeyboard;
 				WRAPPER_EXTENSION = prefPane;
 				ZERO_LINK = YES;
@@ -461,6 +486,7 @@
 		1DBD214A08BA80EA00186707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -468,6 +494,8 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.yllan.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = RetroKeyboard;
 				WRAPPER_EXTENSION = prefPane;
 			};
@@ -476,29 +504,74 @@
 		1DBD214D08BA80EA00186707 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.6;
-				VALID_ARCHS = "i386 ppc x86_64";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
 		1DBD214E08BA80EA00186707 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
-				SDKROOT = macosx10.6;
-				VALID_ARCHS = "i386 ppc x86_64";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -506,9 +579,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -521,7 +594,7 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yllan.RetroKeyboard;
 				PRODUCT_NAME = RetroKeyboardDaemon;
 			};
 			name = Debug;
@@ -530,9 +603,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
@@ -544,7 +617,7 @@
 					"-framework",
 					AppKit,
 				);
-				PREBINDING = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.yllan.RetroKeyboard;
 				PRODUCT_NAME = RetroKeyboardDaemon;
 				ZERO_LINK = NO;
 			};

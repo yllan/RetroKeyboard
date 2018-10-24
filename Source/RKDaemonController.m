@@ -9,6 +9,7 @@
 #import "RKDaemonController.h"
 #import "RKKeyboardProfile.h"
 #import "RKBase.h"
+#import <ApplicationServices/ApplicationServices.h>
 
 CGEventRef myCGEventCallback(CGEventTapProxy proxy, CGEventType type, CGEventRef event, void *refcon)
 {
@@ -51,6 +52,13 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(RKDaemonController);
 @synthesize volume = _volume;
 @synthesize profile = _profile;
 
+- (BOOL) isAuth
+{
+    NSDictionary *options = @{(id)kAXTrustedCheckOptionPrompt: @YES};
+    BOOL accessibilityEnabled = AXIsProcessTrustedWithOptions((CFDictionaryRef)options);
+    return accessibilityEnabled;
+}
+
 - (void) awakeFromNib
 {
     NSConnection *connection = [[NSConnection new] autorelease];
@@ -61,6 +69,10 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(RKDaemonController);
 		[NSApp terminate: self];
 		return;
 	}
+    
+    if([self isAuth] == false) {
+        [NSApp terminate: self];
+    }
     
     [[NSDistributedNotificationCenter defaultCenter] addObserver: self selector: @selector(readPreference) name: RKDaemonUpdatePreferenceNotificationName object: RKDaemonNotificationSenderIdentifier];
 	[[NSDistributedNotificationCenter defaultCenter] addObserver: self selector: @selector(shouldQuit) name: RKDaemonShouldQuitNotificationName object: RKDaemonNotificationSenderIdentifier];
